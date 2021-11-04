@@ -1,0 +1,184 @@
+*{
+    box-sizing:border-box;
+}
+div.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin-left: 1000px;
+}
+.message{
+    max-width: 40%;
+    min-width: 20%;
+    width:100px ;
+    height: 60px;
+    border:2px solid white;
+    border-radius: 5%;
+    background:rgb(58, 74, 211);
+}
+.svg2:hover{
+    height:40px;
+    width:40px;
+}
+.nav-wrapper {
+    width: 14%;
+    min-width: 14%;
+    background: rgb(58, 74, 211);
+    border: 2px solid white;
+    border-radius: 5%;
+    }
+ .nav-menu {
+    position:relative;
+    display:inline-block;
+ }
+ 
+ .nav-menu li {
+    display: inline;
+    list-style-type: none;
+ }
+ 
+ a{
+     font-size: 16px;
+     color:white;
+}
+.svg{
+    height: 20px;
+    width: 20px;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    min-width: 80%;
+    margin: 0;
+    font-family: "Monteserrat", sans-serif;
+    background-color: none;
+}
+
+.inf{
+   max-width: 100%;
+   min-width: none;
+}
+.personal{
+   display: flex;
+   flex-wrap: wrap;
+}
+.Nadiya{
+   height: 200px; 
+   width: 180px;
+   border:2px solid rgb(216, 130, 238);
+   border-radius: 50%;
+   display: grid;
+   align-content: space-around;
+   max-width: 200px;
+}
+h2{
+    font-size: 18px;
+    color: seashell;
+    border: 2px solid white;
+    padding: 5px;
+    max-width: 35%;
+    background: rgb(216, 130, 238);
+    border-radius: 5%;
+}
+.webwork{
+    width: 280px;
+    height: 280px;
+    max-width: 280px;
+    margin-left: 600px;
+}
+.header-title{
+    font-size: 40px;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    max-width: 30%;
+    min-width: 30%;
+    background: rgb(216, 130, 238);
+    border-radius: 5%;
+    margin-left: 600px;
+    
+}
+.header-subtitle{
+    font-size: 28px ;
+    color: rgb(252, 249, 103);
+    border: 2px solid white;
+    max-width: 25%;
+    min-width: 25%;
+    background: rgb(58, 74, 211);
+    border-radius: 5%;
+    margin-left: 700px;
+}
+/*Portfolio*/
+.portfolio{
+    background-color: none ;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    justify-content: center ;
+    max-width: 1360px;
+}
+.portfolio-header{
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color:rgb(58, 74, 211);
+    max-width: 30%;
+    min-width: 30%;
+    margin-left: 500px;
+    border: 2px solid rgb(58, 74, 211);
+    border-radius: 5%;
+    background-color: white;
+}
+.cards{
+    max-width: 50%;
+    background-color: rgb(58, 74, 211);
+    padding: 20px;
+    width: 50%;
+    height: 2830px;
+    border: 2px solid white;
+    margin-left: 350px;
+}
+.photo{
+    width: 700px;
+    height: 550px;
+}
+.card-title{
+    margin: 0;
+    text-align: left;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height:130%;
+    color:white;
+}
+ p{
+    margin:0;
+    font-size: 16px;
+    line-height: 130%;
+    color:white;
+}
+.svg3:hover{
+    background:yellow;
+    max-width: 10%;
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+    border-radius: 10%;
+    border:4px solid rgb(216, 130, 238);
+}
+p.contacts{
+    max-width: 13%;
+    min-width: 13%;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background: yellow;
+    border: 4px solid rgb(58, 74, 211);
+    border-radius: 10%;
+    margin-left: 5px;
+}
+form {
+    margin-left: 200px;
+}
+form.button{
+    margin-left: 5px;
+}
